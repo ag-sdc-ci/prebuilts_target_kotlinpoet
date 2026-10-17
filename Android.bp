@@ -16,11 +16,6 @@ license {
     ],
 }
 
-java_import_host {
-    name: "kotlinpoet",
-    jars: ["share/kotlinpoet/kotlinpoet-1.14.2.jar"],
-    prefer: true,
-}
 
 java_import_host {
     name: "kotlinpoet-javapoet",
